@@ -1,0 +1,92 @@
+
+body{
+    background-color: #1E2326;
+    color: #D3C6AA;
+    display: flex;
+   justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-size: 100px;
+}
+.container{
+    min-width: 500px;
+    max-width: 800px;
+}
+.tabs{
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+}
+
+.todo-list{
+    margin: 0;
+    padding: 0;
+    border: 1px solid #D3C6AA;
+    padding-left: 12px;
+}
+.tasks{
+    /* border: 1px solid #475B58; */
+    align-items: center;
+    display: flex;
+    /* margin-top: 50px; */
+    padding: 10px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.add-btn{
+    background-color: #3C4841;
+    color: white;
+    border: none;
+    border-radius: 0 8px 8px 0;
+
+}
+
+.cancel-btn, .save-btn, .edit-btn, .delete-btn{
+    background-color: #3C4841;
+    color: #D3C6AA;
+    width: 40px;
+    height: 30px;
+    border: none;
+
+
+}
+.nav-button{
+    width: 250px;
+    background-color:#3C4841;
+    color: #D3C6AA;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-button:active{
+    background-color:rgba(16, 97, 70, 0.444);
+    color: #D3C6AA;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+.input-box{
+    border-radius: 8px 0 0 8px ;
+    padding: 10px;
+    width: 420px;
+    border: none;
+    background-color: #D3C6AA;
+    
+}
+.edit-todo-box{
+    border: none;
+    background-color: #1E2326;
+    color: #D3C6AA;
+}
+.tasks h4{
+    margin: 0px;
+}

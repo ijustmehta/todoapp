@@ -7,6 +7,6 @@ A simple, minimalist to-do list application built with React. This project was c
 - [x] Minimalist UI for distraction-free task management
 
 ## Technologies Used
-React (Hooks for state management)
-Custom CSS for styling
-Vite
+- React (Hooks for state management)
+- Custom CSS for styling
+- Vite

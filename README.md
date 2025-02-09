@@ -1,8 +1,12 @@
-# React + Vite
+# Everforest-Themed Todo List
+A simple, minimalist to-do list application built with React. This project was created to learn React state management while keeping the design consistent with my Everforest-themed Linux rice.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- [x] Add, edit, and delete tasks
+- [x] Light and dark mode (Everforest-themed)
+- [x] Minimalist UI for distraction-free task management
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+React (Hooks for state management)
+Custom CSS for styling
+Vite

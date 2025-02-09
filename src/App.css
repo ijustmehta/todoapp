@@ -40,13 +40,7 @@ body{
     font-size: 20px;
 }
 
-.add-btn{
-    background-color: #3C4841;
-    color: white;
-    border: none;
-    border-radius: 0 8px 8px 0;
 
-}
 
 .cancel-btn, .save-btn, .edit-btn, .delete-btn{
     background-color: #3C4841;
@@ -80,7 +74,20 @@ body{
     width: 420px;
     border: none;
     background-color: #D3C6AA;
-    
+}
+.add-btn{
+    background-color: #3C4841;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 0 8px 8px 0; 
+}
+.add-btn:focus{
+    background-color: #3C4841;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 0 8px 8px 0; 
 }
 .edit-todo-box{
     border: none;

@@ -12,15 +12,15 @@ export default function AddTask({ onAddTask }) {
       }}
       className="form"
     >
-      <input
-        placeholder="get groceries, go for a walk, etc.."
-        className="input-box"
-        required
-        type="text"
-        value={value}
-        onChange={(e) => setValue(e.target.value)}
-      />
-      <button className="add-btn fa-solid fa-plus"></button>
+        <input
+          placeholder="get groceries, go for a walk, etc.."
+          className="input-box"
+          required
+          type="text"
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+        />
+        <button className="add-btn fa-solid fa-plus"></button>
     </form>
   );
 }

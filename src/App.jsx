@@ -50,19 +50,25 @@ function App() {
           ))}
         </ul>
       </nav>
-      {tasks.map((item, index) => (
-        <Fragment key={index}>
-          {(selectedTab === 0 ? !item.isCompleted : item.isCompleted) && (
-            <TodoItem
-              item={item.name}
-              handleRemoveTask={() => handleRemoveTask(index)}
-              handleEditTask={(value) => handleEditTask(index, value)}
-              handleMarkAsComplete={() => handleMarkAsComplete(index)}
-              showTodos={selectedTab === 0}
-            />
-          )}
-        </Fragment>
-      ))}
+      {(selectedTab === 0
+        ? tasks.filter((item) => !item.isCompleted).length > 0
+        : tasks.filter((item) => item.isCompleted).length > 0) && (
+        <div className="todo-list">
+          {tasks.map((item, index) => (
+            <Fragment key={index}>
+              {(selectedTab === 0 ? !item.isCompleted : item.isCompleted) && (
+                <TodoItem
+                  item={item.name}
+                  handleRemoveTask={() => handleRemoveTask(index)}
+                  handleEditTask={(value) => handleEditTask(index, value)}
+                  handleMarkAsComplete={() => handleMarkAsComplete(index)}
+                  showTodos={selectedTab === 0}
+                />
+              )}
+            </Fragment>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

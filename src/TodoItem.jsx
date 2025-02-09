@@ -45,6 +45,7 @@ export default function TodoItem({
       {isEditing && (
         <>
           <input
+            autoFocus
             value={editingTask}
             onChange={(e) => setEditingTask(e.target.value)}
             className="edit-todo-box"

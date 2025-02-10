@@ -1,106 +1,99 @@
-
-body{
-    background-color: #1E2326;
-    color: #D3C6AA;
-    display: flex;
-   justify-content: center;
-    font-family: 'Poppins', sans-serif;
-
+body {
+  background-color: #1e2326;
+  color: #d3c6aa;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
 }
-.header{
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
-    font-size: 100px;
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  font-size: 100px;
 }
-.container{
-    min-width: 500px;
-    max-width: 800px;
+.container {
+  min-width: 500px;
+  max-width: 800px;
 }
-.tabs{
-    list-style-type: none;
-    display: flex;
-    padding: 20px;
+.tabs {
+  list-style-type: none;
+  display: flex;
+  padding: 20px;
 }
-.todo-list{
-    margin: 0;
-    padding: 0;
-    border: 1px solid #D3C6AA;
-    padding-left: 12px;
+.todo-list {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #d3c6aa;
+  padding-left: 12px;
 }
-.tasks{
-    /* border: 1px solid #475B58; */
-    align-items: center;
-    display: flex;
-    /* margin-top: 50px; */
-    padding: 10px;
-    justify-content: space-between;
-    font-size: 20px;
+.tasks {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  font-size: 20px;
 }
-
-
-
-.cancel-btn, .save-btn, .edit-btn, .delete-btn{
-    background-color: #3C4841;
-    color: #D3C6AA;
-    width: 40px;
-    height: 30px;
-    border: none;
-
-
+.cancel-btn,
+.save-btn,
+.edit-btn,
+.delete-btn {
+  background-color: #3c4841;
+  color: #d3c6aa;
+  width: 40px;
+  height: 30px;
+  border: none;
 }
-.nav-button{
-    width: 250px;
-    background-color:#4F5B58;
-    color: #D3C6AA;
-    font-family: 'Poppins', sans-serif;
+.nav-button {
+  width: 250px;
+  background-color: #4f5b58;
+  color: #d3c6aa;
+  font-family: "Poppins", sans-serif;
 }
-.nav-button.active{
-    background-color:#3C4841;
-    color: #D3C6AA;
-    border: 2px solid #A7C080;
+.nav-button.active {
+  background-color: #3c4841;
+  color: #d3c6aa;
+  border: 2px solid #a7c080;
 }
 
-.form{
-    display: flex;
-    justify-content: center;
-    padding-top: 100px;
-
+.form {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
 }
 .input-container {
-    display: flex;
-    align-items: center;
-    border: 2px solid #D3C6AA; 
-    border-radius: 8px;
-    overflow: hidden; 
+  display: flex;
+  align-items: center;
+  border: 2px solid #d3c6aa;
+  border-radius: 8px;
+  overflow: hidden;
 }
-.input-box{
-    border-radius: 8px 0 0 8px ;
-    padding: 10px;
-    width: 420px;
-    border: none;
-    background-color: #D3C6AA;
+.input-box {
+  border-radius: 8px 0 0 8px;
+  padding: 10px;
+  width: 420px;
+  border: none;
+  background-color: #d3c6aa;
 }
-.add-btn{
-    background-color: #3C4841;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 0 8px 8px 0;
+.add-btn {
+  background-color: #3c4841;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 0 8px 8px 0;
 }
-.add-btn:focus{
-    background-color: #3C4841;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 0 8px 8px 0; 
+.add-btn:focus {
+  background-color: #3c4841;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 0 8px 8px 0;
 }
-.edit-todo-box{
-    border: none;
-    background-color: #1E2326;
-    color: #D3C6AA;
+.edit-todo-box {
+  border: none;
+  background-color: #1e2326;
+  color: #d3c6aa;
 }
-.tasks h4{
-    margin: 0px;
+.tasks h4 {
+  margin: 0px;
 }

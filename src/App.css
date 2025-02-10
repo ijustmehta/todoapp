@@ -23,7 +23,6 @@ body{
     display: flex;
     padding: 20px;
 }
-
 .todo-list{
     margin: 0;
     padding: 0;
@@ -53,13 +52,14 @@ body{
 }
 .nav-button{
     width: 250px;
-    background-color:#3C4841;
+    background-color:#4F5B58;
     color: #D3C6AA;
     font-family: 'Poppins', sans-serif;
 }
-.nav-button:active{
-    background-color:rgba(16, 97, 70, 0.444);
+.nav-button.active{
+    background-color:#3C4841;
     color: #D3C6AA;
+    border: 2px solid #A7C080;
 }
 
 .form{

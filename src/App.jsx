@@ -41,7 +41,7 @@ function App() {
           {TABS.map((item, index) => (
             <li key={index}>
               <button
-                className="nav-button"
+                className={`nav-button ${selectedTab === index ? "active" : ""}`}
                 onClick={() => setSelectedTab(index)}
               >
                 {item.name}

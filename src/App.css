@@ -68,6 +68,13 @@ body{
     padding-top: 100px;
 
 }
+.input-container {
+    display: flex;
+    align-items: center;
+    border: 2px solid #D3C6AA; 
+    border-radius: 8px;
+    overflow: hidden; 
+}
 .input-box{
     border-radius: 8px 0 0 8px ;
     padding: 10px;
@@ -80,7 +87,7 @@ body{
     color: white;
     border: none;
     padding: 10px;
-    border-radius: 0 8px 8px 0; 
+    border-radius: 0 8px 8px 0;
 }
 .add-btn:focus{
     background-color: #3C4841;

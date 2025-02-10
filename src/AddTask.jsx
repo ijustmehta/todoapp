@@ -12,6 +12,7 @@ export default function AddTask({ onAddTask }) {
       }}
       className="form"
     >
+      <div className="input-container">
         <input
           placeholder="get groceries, go for a walk, etc.."
           className="input-box"
@@ -21,6 +22,7 @@ export default function AddTask({ onAddTask }) {
           onChange={(e) => setValue(e.target.value)}
         />
         <button className="add-btn fa-solid fa-plus"></button>
+      </div>
     </form>
   );
 }

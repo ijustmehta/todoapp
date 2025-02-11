@@ -4,36 +4,50 @@ body {
   display: flex;
   justify-content: center;
   font-family: "Poppins", sans-serif;
+  padding: 20px;
 }
+
 .header {
   display: flex;
   justify-content: center;
   padding: 0;
   margin: 0;
-  font-size: 100px;
+  font-size: 80px;
+  text-align: center;
 }
+
 .container {
-  min-width: 500px;
+  width: 100%;
   max-width: 800px;
+  min-width: 320px;
+  padding: 20px;
 }
+
+/* TABS */
 .tabs {
   list-style-type: none;
   display: flex;
-  padding: 20px;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
 }
+
 .todo-list {
   margin: 0;
-  padding: 0;
+  padding: 10px;
   border: 1px solid #d3c6aa;
-  padding-left: 12px;
+  border-radius: 5px;
 }
+
 .tasks {
   align-items: center;
   display: flex;
   padding: 10px;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 18px;
 }
+
 .cancel-btn,
 .save-btn,
 .edit-btn,
@@ -43,13 +57,17 @@ body {
   width: 40px;
   height: 30px;
   border: none;
+  cursor: pointer;
 }
+
 .nav-button {
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
   background-color: #4f5b58;
   color: #d3c6aa;
   font-family: "Poppins", sans-serif;
 }
+
 .nav-button.active {
   background-color: #3c4841;
   color: #d3c6aa;
@@ -59,41 +77,96 @@ body {
 .form {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 50px;
+  flex-wrap: wrap;
 }
+
 .input-container {
   display: flex;
   align-items: center;
   border: 2px solid #d3c6aa;
   border-radius: 8px;
   overflow: hidden;
+  width: 100%;
+  max-width: 450px;
 }
+
 .input-box {
-  border-radius: 8px 0 0 8px;
+  flex: 1;
   padding: 10px;
-  width: 420px;
   border: none;
   background-color: #d3c6aa;
 }
+
 .add-btn {
   background-color: #3c4841;
   color: white;
   border: none;
   padding: 10px;
   border-radius: 0 8px 8px 0;
+  cursor: pointer;
 }
+
 .add-btn:focus {
-  background-color: #3c4841;
-  color: white;
-  border: none;
-  padding: 10px;
-  border-radius: 0 8px 8px 0;
+  outline: none;
 }
+
 .edit-todo-box {
   border: none;
   background-color: #1e2326;
   color: #d3c6aa;
 }
+
 .tasks h4 {
   margin: 0px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: 60px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  .input-box {
+    width: 100%;
+  }
+
+  .tasks {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header {
+    font-size: 3rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .todo-list {
+    padding: 10px;
+    border: 1px solid #d3c6aa;
+  }
+
+  .tabs {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+
+  .tasks {
+    flex-direction: row;
+  }
+
+  .input-box {
+    width: 100%;
+  }
+
+  .nav-button {
+    width: 100%;
+  }
 }
